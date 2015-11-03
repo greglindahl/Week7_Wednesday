@@ -34,5 +34,7 @@ $('.close').click(function() {
 	$('.alert-info').remove();
 });
 
+$(".control-group:first > .controls").find("input[type=text]").attr("placeholder", userPrompt);
+
 });
 
